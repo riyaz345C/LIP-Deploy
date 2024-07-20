@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LIP-Deploy/static/css/main.2a49e546.css",
-    "main.js": "/LIP-Deploy/static/js/main.ec9cc6e5.js",
+    "main.js": "/LIP-Deploy/static/js/main.de147a6f.js",
     "static/js/453.b4b5a85a.chunk.js": "/LIP-Deploy/static/js/453.b4b5a85a.chunk.js",
     "static/media/resturant.jpg": "/LIP-Deploy/static/media/resturant.8f6559a77ca1314ef904.jpg",
     "static/media/swimming-poo.jpg": "/LIP-Deploy/static/media/swimming-poo.27f9818436e6ddee3731.jpg",
@@ -58,11 +58,11 @@
     "static/media/slick.woff": "/LIP-Deploy/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/LIP-Deploy/index.html",
     "main.2a49e546.css.map": "/LIP-Deploy/static/css/main.2a49e546.css.map",
-    "main.ec9cc6e5.js.map": "/LIP-Deploy/static/js/main.ec9cc6e5.js.map",
+    "main.de147a6f.js.map": "/LIP-Deploy/static/js/main.de147a6f.js.map",
     "453.b4b5a85a.chunk.js.map": "/LIP-Deploy/static/js/453.b4b5a85a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a49e546.css",
-    "static/js/main.ec9cc6e5.js"
+    "static/js/main.de147a6f.js"
   ]
 }
