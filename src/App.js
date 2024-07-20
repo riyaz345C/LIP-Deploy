@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 
 import Main from './main/Main';
 import Project from './others/projects/Project';
@@ -25,7 +25,7 @@ import Gallery from './sabana/gallery/Gallery';
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route exact path='' element={<Main/>} >
           <Route  path='' element={<Home/>}/>
@@ -48,7 +48,7 @@ function App() {
           <Route path='Update/:id' element={<UpdateForm/>}/>
       </Route> */}
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   );
 }
