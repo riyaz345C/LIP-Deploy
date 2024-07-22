@@ -1,33 +1,29 @@
-// import { BiSolidCheckbox } from "react-icons/bi";
-// import SliderOwn from '../component/SliderOwn'
-// import { faqData } from '../data/faq'
-// import SliderCard from '../component/Projecthighlight/SliderCard'
-// import ProjectHighSlider from '../component/Projecthighlight/ProjectHighSlider'
-// import { features } from '../data/spec' 
-// import {} from '../component/Faq'
-
-import React, { useRef } from 'react'
+import React from 'react'
 import ProductInfo from '../../others/projects/components/ProductInfo'
 import './product.css'
 import Headline from './Headline'
 import LocationAdvantage from './LocationAdvantage'
 import ProductPlan from './ProductPlan'
 import Faq from '../component/FAQ/Faq'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import projects from '../data/projectsData'
-// import img from '../assets/main.avif'
 import ProjectHighSliderv2 from '../../others/projects/components/ProjectHighSliderv2'
 
-// for form handling
-// import { api } from '../../others/api/api'
-// import axios from 'axios'
-
-let x = ['Overview', 'Location','Features', 'Highlights', 'Plans' ,'FAQ’s']
+let x = [ 'Location','Features', 'Highlights', 'Plans' ,'FAQ’s']
 
 function ProductCopy() {
-  const enquiryFormRef = useRef()
-  // handle submit 
-  console.log(enquiryFormRef.current)
+  
+    const handleHashChange = (e) => {
+      const hash = e
+      console.log(e,'lop');
+      if (hash) {
+        const element = document.querySelector('#'+hash); debugger
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' ,block: 'center'});
+        }
+      }
+    };
+
     const params = useParams();
     const paramId = params.id.split('%20').join(' ');
     let projectData = projects.filter(e=>e.projectName === paramId);
@@ -49,12 +45,13 @@ return (
           <div className="product-info">
               <ProductInfo projectName={projectData.projectName} 
               subtitle={projectData.subTitle}
-              boxArray={projectData.box} />  
+              boxArray={projectData.box} click={()=>handleHashChange('Overview')}/>  
           </div>
           <div className="nav">
-            {x.map((e,i)=>{
+            {x.map((value,i)=>{
               return(
-                <a href={`#${e}`} style={{cursor:'pointer'}} key={i}>{e}</a>
+                <Link to={`#${value}`} onClick={()=>handleHashChange(value)}
+                 style={{cursor:'pointer'}} key={i}>{value}</Link>
               )
             })}
           </div>
@@ -66,7 +63,7 @@ return (
               <span>Projects</span> 
               <span>{projectData.projectName}</span>
           </div>
-          <h1>{projectData.projectName}</h1>
+          {/* <h1>{projectData.projectName}</h1> */}
           <Headline span={'Project'} div={'Overview'} id={`Overview`}/> {/*Overview */}
           <p>{projectData.projectOverview}</p>
       </section>
@@ -108,42 +105,3 @@ return (
 }
 
 export default ProductCopy;
-
-
-/* <form ref={enquiryFormRef} onSubmit={handleSubmit} > 
-      <div className="enquire-form" >
-        <h1 className="form-title">Enquire Form</h1>
-        <input type="text" name="popupName" id="" placeholder="Name" style={{background: '#fff',
-  border: '1px solid #bbb', padding: '12px 9px',width: '80%',margin:'0'}}/>
-        <input type="number" name="popupNumber" id="" placeholder="Number" />
-        <input type="email" name="popupEmail" id="" placeholder="Email" />
-        <input type="submit" name="popupSubmit" id="" value={'submit'} className='submit'
-        onClick={handleSubmit} style={{cursor:'pointer'}}/>
-      </div>
-        </form> */
-
-/*
-        const handleSubmit = async (e) => {
-    e.preventDefault()
-  const popupFormData = {
-    popupName:enquiryFormRef.current.popupName.value,
-    popupNumber:enquiryFormRef.current.popupNumber.value,
-    popupEmail:enquiryFormRef.current.popupEmail.value,
-  }
-    try {
-      enquiryFormRef.current.popupSubmit.value = `loading...`
-      const response = await axios.post(api.sendmail,popupFormData)
-      enquiryFormRef.current.reset()
-      enquiryFormRef.current.popupSubmit.value = `sended`;
-      setTimeout(()=>{
-        enquiryFormRef.current.popupSubmit.value = `submit`;
-      },3000)
-
-      console.log(response);  
-    } catch (error) {
-      console.log(error);
-      enquiryFormRef.current.popupSubmit.value = `${error.message} Retry`;
-      }
-
-  }
-   */

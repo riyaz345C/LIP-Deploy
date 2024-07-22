@@ -88,14 +88,14 @@ return(
          `   shaping the future of real estate in Chennai and beyond.
          
       </p>
-      <div className="Brochure">
+      {/* <div className="Brochure">
          <h3 className="broh1">
             Our Corporate Brochure
          </h3>
          <button class="download-btn">Download PDF</button>
         
         
-      </div>
+      </div> */}
    </div>
    <h2 className="infra-title">
       <span> VGN  </span> Leadership 

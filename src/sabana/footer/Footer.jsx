@@ -2,11 +2,10 @@ import './footer.css';
 import footer from './lip-logo.png';
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
-// import { FaXTwitter } from "react-icons/fa6";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { ImMail } from "react-icons/im";
-import { FaYoutube } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 const Footer = () => {
 return(
 <>
@@ -126,12 +125,14 @@ Established in 2012, LIP has become a leading name in real estate, known for its
 
 <div class="item5">
 <h4 className="hitem">Quick Links</h4>
-<a href="#" className='sub-links'> Home </a>
-<a href="#" className='sub-links'> About us </a>
-<a href="#" className='sub-links'> Projects </a>
-<a href="#" className='sub-links'> Customer Registration </a>
+<Link to={`/`} className='sub-links'> Home </Link>
+<Link to={`/about`} className='sub-links'> About us </Link>
+<Link to={`/Contact`} className='sub-links'> Contact us </Link>
+<Link to={`/registration`} className='sub-links'> Registration </Link>
+{/* <Link to={`/`} className='sub-links'> Projects </Link> */}
+{/* <a href="#" className='sub-links'> Customer Registration </a>
 <a href="#" className='sub-links'> Vendor Registration </a>
-<a href="#" className='sub-links'>Investor Registration </a>
+<a href="#" className='sub-links'>Investor Registration </a> */}
 {/* <a href="#" className='sub-links'> VGN Interiors </a> */}
 {/* <a href="#" className='sub-links'> VGN Home Building</a> */}
 {/* <a href="#" className='sub-links'> Investors</a> */}

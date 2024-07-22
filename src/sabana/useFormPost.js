@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useState } from "react"
 import {api} from '../others/api/api'
-const useFormPost = () => {
+const useFormPost = (setSubmitted) => {
     const [loading,setLoading] = useState(false)
     const [state,setState] = useState({message:''})
     const sendEmail = async (postData,form) =>{
@@ -9,7 +9,7 @@ const useFormPost = () => {
         try {
             setLoading(true)
             const response = await axios.post(api.sendmail,{...postData})
-            setState('submitted')
+            setSubmitted('submitted')
             form.current.reset()
         } catch (error) {
             if (error.response) {   
@@ -34,6 +34,7 @@ const useFormPost = () => {
         }
         finally{
             setLoading(false)
+            setTimeout(() => setSubmitted('submit'), 10000)
         }
     }
     return[sendEmail,loading,state]

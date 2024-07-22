@@ -1,7 +1,8 @@
 import React from 'react'
 import { api } from '../../api/api'
+import { Link } from 'react-router-dom'
 
-function  ProductInfo({projectName,subtitle,boxArray}) {
+function  ProductInfo({projectName,subtitle,boxArray,click}) {
   return (
     <>
     <img src={`${api.get}/lip.jpg`} alt="" />
@@ -15,9 +16,9 @@ function  ProductInfo({projectName,subtitle,boxArray}) {
      <p>{e.content||`paragraph`}</p>
  </div>
    )})}
-    <button><a href="#Overview" style={{textDecoration:'none',color:'#fff'}}>Project Details</a></button>
-    <button>Enquiry Now </button>
-    {/* <button>Check It !</button> */}
+    <button><Link to={`#Overview`} onClick={()=> click()} style={{textDecoration:'none',color:'#fff'}}>Project Details</Link></button>
+    <button> <Link to={`/registration`} style={{textDecoration:'none',color:'#fff'}}>Enquiry Now</Link> </button>
+    
 </div>
     </>
   )

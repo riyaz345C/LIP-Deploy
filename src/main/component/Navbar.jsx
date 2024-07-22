@@ -15,14 +15,14 @@ function Navbar({projectData}) {
   const [rotate,setRotate] = useState(false) //1
   // sidebar
   function handleClick(x){
-    window.scrollTo({top:0,behavior:'smooth'})
+    // window.scrollTo({top:0,behavior:'smooth'})
     setVisibility(!visibility)
     setDropDown(false)
     setOpen(false)
   }
   // =====================
   function handleClickX(x){
-    window.scrollTo({top:0,behavior:'smooth'})
+    // window.scrollTo({top:0,behavior:'smooth'})
   }
   function handleToggle() {
     setVisibility(!visibility)

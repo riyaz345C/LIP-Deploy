@@ -9,13 +9,9 @@ const style = { display: 'flex', alignItems: 'center', justifyContent: 'center' 
 const Registration = () => {
   // const [formInfo, setFormInfo] = useState('');
   const formRef = useRef();
-  const [submit, loading, state] = useFormPost();
   const [submitted , setSubmitted]  = useState('submit')
+  const [submit, loading, state] =  useFormPost(setSubmitted);
 
-const setSubmit = () => setTimeout(()=>{
-  console.log('hi');
-  setSubmitted('submit')
-}, 5000)
   const FormData = (e) => {
     e.preventDefault();
     const postData = {
@@ -34,7 +30,6 @@ const setSubmit = () => setTimeout(()=>{
     };
     submit(postData, formRef);
     // console.log(postData);
-    setSubmit()
   };
 
   // console.log(formInfo);
@@ -106,7 +101,7 @@ const setSubmit = () => setTimeout(()=>{
             </div>
 
             <button type="submit" className="btn" style={style}>
-              {loading ? <Loader size={25} color={'#fff'} /> : <>{(state.message && 'Retry') || 'Submit'}</>}
+              {loading ? <Loader size={25} color={'#fff'} /> : <>{(state.message && 'Retry') || submitted}</>}
             </button>
           </form>
         </div>

@@ -33,13 +33,14 @@ const Modal = ({tog}) => {
     const [xe,setX] = useState(false)
     const popupFormRef = useRef()
     const [loading,setloading]=useState(false)   
+    const [submitted,setSubmitted]=useState('submit')   
     useEffect(() => {
         let timeoutId;
-        // console.log('u1');
+        
         function pop() {
-            // console.log('u2');
+        
             if (tog) {
-                // console.log('u3');
+        
                 timeoutId = setTimeout(() => {
                     setX(true); // No need to negate xe
                 }, 1000);
@@ -53,7 +54,7 @@ const Modal = ({tog}) => {
             clearTimeout(timeoutId); // Clear the timeout on unmount or dependency change
         };
     }, [tog]);
-    const [handleSubmit,] = useMailSend(popupFormRef,setloading,'popup')
+    const [handleSubmit,] = useMailSend(popupFormRef,setloading,'popup',setSubmitted)
     // const handleSubmit = async(e) => {
     //     e.preventDefault()
     //     try {
@@ -115,7 +116,7 @@ const Modal = ({tog}) => {
                         display: 'block',
                         margin: '0 auto'
                              }}  >
-                                {loading?<Example size={30} color={'#eee'}/>:'Submit'}
+                                {loading?<Example size={30} color={'#eee'}/>:submitted}
                              </button>
     
         </form>

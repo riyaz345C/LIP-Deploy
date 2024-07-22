@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes, useLocation } from 'react-router-dom';
 
 import Main from './main/Main';
 import Project from './others/projects/Project';
@@ -12,6 +12,8 @@ import About from './sabana/about/About';
 import Infra from './sabana/infra/Infra';
 import Vendorlogin from './sabana/vendorlogin/Vendorlogin';
 import Gallery from './sabana/gallery/Gallery';
+import { useEffect, useState } from 'react';
+import ScrollTop from './ScrollTop';
 
 // admin routes 
 // import AdminLogin from './adminPanel/AdminLogin';
@@ -23,14 +25,17 @@ import Gallery from './sabana/gallery/Gallery';
 // import Main from './slick/Main';
 
 function App() {
+  const [scrolltop,setScrollTop]  = useState(true)
   return (
     <>
+    
     <HashRouter>
+      <ScrollTop bool={scrolltop}/>
     <Routes>
       <Route exact path='' element={<Main/>} >
           <Route  path='' element={<Home/>}/>
           <Route path='product' element={<Product/>}/>
-          <Route path='project/:id' element={<ProductCopy/>}/>
+          <Route path='project/:id' element={<ProductCopy />}/>
           {/* <Route path='project/:id' element={<Project/>}/> */}
           <Route path='contact' element={<Contact/>}/> 
           <Route path='login' element={<Login/>}/> 
