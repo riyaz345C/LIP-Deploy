@@ -6,18 +6,19 @@ import popup from './lip-logo1.png'
 import Example from '../main/assets/Loader'
 import useMailSend from './useMailSend'
 import { MdOutlineCancel } from "react-icons/md";
-const style ={
-    position:'fixed',
-    left:'50%',
-    top:'50%',
-    transform:'translate(-50%,-50%)',
-    backgroundColor:'#fff',
-    zIndex:'1000',
-    border:"1px solid #aaa",
-    padding:'10px',
-    width:'fit-content',
-    transition:'all .5s ease .2s'
-}
+const style = {
+    position: 'fixed',
+    left: '50%',
+    top: '50%',
+    transform: 'translate(-50%, -50%)',
+    backgroundColor: '#fff',
+    zIndex: 1000, 
+    border: '1px solid #aaa',
+    padding: 'calc(18vw / 10)', 
+    width: 'clamp(250px, 60vw, 400px)', 
+    transition: 'all 0.5s ease 0.2s' 
+  };
+  
 const overlay ={
     position:'fixed',
     left:0,
