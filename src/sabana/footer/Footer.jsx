@@ -104,9 +104,9 @@ Established in 2012, LIP has become a leading name in real estate, known for its
 
 <div class="item3">
 <h4 className="hitem">Our Groups of Company</h4>
-<a href="https://www.addsbazar.com/en" className='sub-links'> Addsbazar Classifieds Pvt Ltd </a>
+<a href="https://www.addsbazar.com/" className='sub-links'> Addsbazar Classifieds Pvt Ltd </a>
 
-<a href="https://propertystores.in/home" className='sub-links'>Property stores</a>
+<a href="https://propertystores.in/home" className='sub-links'>Propertystores.in</a>
 <a href="https://www.signmediainfotech.in/" className='sub-links'> Signmedia Infotech </a>
 
 <a href="https://www.mtnbookings.com/" className='sub-links'> Modern Tourism Network </a>

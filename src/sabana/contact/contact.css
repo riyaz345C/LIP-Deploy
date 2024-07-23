@@ -75,7 +75,7 @@
     justify-content: center;
 }
 .card{
-    background-color: aliceblue;
+    background-color:#cae6ff;
     padding: 0  20px 20px;
     display: flex;
     flex-direction: column;
@@ -153,6 +153,20 @@ hr {
 .redcard-p {
     margin: 0; 
 }
+
+.cardh3 {
+    color:rgb(105, 17, 17);  /* Set a suitable color for your design */
+    text-decoration: none;  /* Remove underline */
+    font-size: 18px;  /* Adjust font size as needed */
+    font-weight: bold;  /* Set font weight for emphasis */
+  }
+  
+  a {
+    text-decoration: none; /* Ensures link doesn't have an underline */
+    color: inherit; /* Makes sure the link color matches the surrounding text */
+    cursor: pointer; /* Makes sure the cursor changes to a pointer */
+  }
+  
 
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
