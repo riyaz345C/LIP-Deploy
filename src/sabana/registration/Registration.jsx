@@ -19,13 +19,9 @@ const Registration = () => {
       dataType:'lip-registration data',
       registrationProof: formRef.current.registrationProof.value,
       name: formRef.current.name.value,
-      // material: formRef.current.material.value,
-      // secondropdown: formRef.current.secondropdown.value,
-      // contactr: formRef.current.contactr.value,
-      // mobiler: formRef.current.mobiler.value,
       emailr: formRef.current.emailr.value,
       phone: formRef.current.phone.value,
-      stater: formRef.current.stater.value,
+      // stater: formRef.current.stater.value,
       cityr: formRef.current.cityr.value,
     };
     submit(postData, formRef);
@@ -40,17 +36,17 @@ const Registration = () => {
         <div className="containers">
           <form className="form-vendor" ref={formRef} onSubmit={FormData}>
             <img src={login} className="login-bgs" alt="login-img" />
-            
+            <br /><br />
             <div className="input-container1">
               <div className="p-div">
                 <p className="pName">Type*</p>
               </div>
               <div className="select">
                 <label className="radio-inline">
-                  <input type="radio" name="registrationProof" value="GSTNumber" required />Investor
+                  <input type="radio" name="registrationProof" value="GSTNumber" required />Individual
                 </label>
                 <label className="radio-inline">
-                  <input type="radio" name="registrationProof" value="PANNumber" required />Vendor
+                  <input type="radio" name="registrationProof" value="PANNumber" required />Agent
                 </label>
               </div>
             </div>
@@ -69,7 +65,7 @@ const Registration = () => {
                 <p className="pName">Email*</p>
               </div>
               <div className="select">
-                <input className="input-fieldr" type="email" placeholder="Enter your Email" name="emailr" required />
+                <input className="input-fieldr-email" type="email" placeholder="Enter your Email" name="emailr" required />
               </div>
             </div>
 
@@ -82,14 +78,14 @@ const Registration = () => {
               </div>
             </div>
 
-            <div className="input-container1">
+            {/* <div className="input-container1">
               <div className="p-div">
                 <p className="pName">State*</p>
               </div>
               <div className="select">
                 <input className="input-fieldr" type="text" placeholder="Enter your State" name="stater" required />
               </div>
-            </div>
+            </div> */}
 
             <div className="input-container1">
               <div className="p-div">
