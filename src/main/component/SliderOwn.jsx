@@ -1,28 +1,17 @@
 import React from 'react'
 import Card from './Card'
-import useFetch from '../../others/customHook/useFetch';
-import { api } from '../../others/api/api';
+
 import './slider.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Example from '../assets/Loader';
 import projects from '../data/projectsData';
-const title=['qwer','123','asdf','zxcv','cftg'] //demo 
+
 function SliderOwn() {
-  // const [width,setWidth]=useState()
-  // ======================
-  // let [x,y,dataFetched] = useFetch(api.info) //old
-  // new
-  // console.log(x,y,dataFetched[0]);
+  
   let dataFetched = [projects,[]]
-  // ======================
-  // useEffect(() => {
-    // const handleResize = () => {
-    //   setWidth(window.innerWidth);
-    // };
-    // window.addEventListener('resize', handleResize);
-  // }, []);
+  
 
     var settings = {
         dots: true,
