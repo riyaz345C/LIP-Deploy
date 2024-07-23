@@ -26,7 +26,7 @@
     border-radius: 10px 10px 5px 5px;
     margin: 0 auto;
 }
-.primary-card :not(img){
+.primary-card :not(img,svg){
     padding: 0 15px;
 }
 .primary-card img{

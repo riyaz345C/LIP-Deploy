@@ -67,5 +67,17 @@ function SliderOwn() {
     </>
   )
 }
-
+export const settings = {
+  // dots: true,
+  infinite: true,
+  speed: 500,
+  // slidesToShow: ((width<800)? 1 : ((width<888)? 2 : 3) ),  
+  slidesToShow: 1,  
+  slidesToScroll: 1,
+  autoplay:true, 
+  autoplaySpeed:2000,
+  pauseOnHover:false,
+  arrows:false,
+  fade:true
+};
 export default SliderOwn

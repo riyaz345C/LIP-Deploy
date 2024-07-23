@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import hero from './assets/hero.avif'
 import './home.css'
-import SliderOwn from './component/SliderOwn'
+import SliderOwn, { settings } from './component/SliderOwn'
 import Tslider from './testimonial/Tslider'
 import Modal from '../popup/Modal'
+import Slider from 'react-slick'
+
 const mapData =[{
   place:"ECR",
   img:"/c",
@@ -51,17 +53,30 @@ function Home() {
     return x
     console.log(20);
   }   
+  const [pause,setPause] = useState(false)
+    setTimeout(()=> {setPause(true)} , 10000)
+    settings.pauseOnHover = pause
   return (
     <>
     {toggle&&<Modal tog={setToggle}/>}
-    <div className="hero-img-container">
-    <img src={hero} alt="" className='hero-img' />
-    <section  className='hero-content'>
-      <h1>World Class Homes</h1>
-      <h1>At the heart of Chennai</h1>
-      {/* <button onClick={()=>setToggle(true)}>tog</button> */}
-    </section>
-    </div>
+    <Slider {...settings} >
+      <div className="hero-img-container">
+      <img src={hero} alt="" className='hero-img' />
+      <section  className='hero-content'>
+        <h1>Trusted Real Estate Solution</h1>
+        <h1>For Every Lifestyle</h1>
+        {/* <button onClick={()=>setToggle(true)}>tog</button> */}
+      </section>
+      </div>
+      <div className="hero-img-container">
+      <img src={require('./assets/main.avif')} alt="" className='hero-img' />
+      <section  className='hero-content'>
+        <h1>World Class Homes</h1>
+        <h1>At the heart of Chennai</h1>
+        {/* <button onClick={()=>setToggle(true)}>tog</button> */}
+      </section>
+      </div>
+    </Slider>
     <section className='lip-section-1'>
       <h1><span>Featured</span> Project</h1>
       <SliderOwn/>

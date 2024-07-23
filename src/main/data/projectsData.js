@@ -22,7 +22,7 @@
 // nearby	HIRUMALAI KUMARASAMY KOVIL				
 let projects =  [
     {
-            projectName: "Plot in ECR",
+            projectName: "ECR",
             subTitle: "22 lakhs onwatrds",
             box: [
                 {id: {numberInt: "1"}, head: "Type", content: "Plot/Cottage",},
@@ -81,7 +81,7 @@ let projects =  [
             
         },
         {
-            projectName: "Plot in Kodaikanal",
+            projectName: "Kodaikanal",
             subTitle: "36 lakhs onwatrds",
             box: [
                 {id: {numberInt: "1"}, head: "Type", content: "Plot/Cottage",},
@@ -148,7 +148,7 @@ let projects =  [
             
         },
         {
-            projectName: "Plot in Courtallam",
+            projectName: "Courtallam",
             subTitle: "34 lakhs onwatrds",
             box: [
                 {id: {numberInt: "1"}, head: "Type", content: "Polt/Cottage",},
@@ -205,7 +205,7 @@ let projects =  [
             
         },
         {
-            projectName: "Plot in Ulundurpet",
+            projectName: "Ulundurpet",
             subTitle: "4 lakhs onwards",
             box: [
                 {id: {numberInt: "1"}, head: "Type", content: "Plot",},
