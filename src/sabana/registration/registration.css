@@ -90,9 +90,9 @@ body, html {
   cursor: pointer;
   width: 120px;
   opacity: 0.9;
-  margin-left: 180px;
-  margin-bottom: 10px;
-  margin-top: 12px;
+  margin-left: 140px;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .btn:hover {

@@ -5,9 +5,10 @@ import Card from './Card';
 // import { FaAngleDoubleRight } from "react-icons/fa";
 import {  FaAngleRight } from "react-icons/fa";
 import {  FaPhoneVolume } from "react-icons/fa6";
-import { FaClover } from "react-icons/fa6";
+// import { FaClover } from "react-icons/fa6";
 import { FaAngleDoubleRight } from "react-icons/fa";
-import { GrUserManager } from "react-icons/gr";
+// import { GrUserManager } from "react-icons/gr";
+import { FaRegBuilding } from "react-icons/fa";
 const Contact = () => {
 return(
 <>
@@ -54,12 +55,14 @@ return(
       <h3 className='cardh2'>Pallavaram</h3>
       }
    number={
-   <h3 className='cardh3'>004-42646357</h3>
+      <a href="tel:+004-42646357" aria-label="Call 004-42646357">
+      <h3 className="cardh3">004-42646357</h3>
+    </a>
    }
    >
    </Card>
    <Card
-   icon2={<GrUserManager style={{ marginTop: '8px',marginLeft:'6px',fontSize:'43px',color:'white', }} />}
+   icon2={<FaRegBuilding  style={{ marginTop: '8px',marginLeft:'6px',fontSize:'43px',color:'white', }} />}
    content={
    <h2 className='cardh2'>Branch Office</h2>
    }
@@ -67,13 +70,15 @@ return(
       <h3 className='cardh2'>Veppur</h3>
       }
    number={
-   <h3 className='cardh3'>9790578985</h3>
+   <a href="tel:+9790578985" aria-label="Call 9790578985">
+      <h3 className="cardh3">9790578985</h3>
+    </a>
    }
    
    >
    </Card>
    <Card
-   icon3={<FaClover style={{ marginTop: '8px',marginLeft:'6px',fontSize:'43px',color:'white', }} />}
+   icon3={<FaRegBuilding  style={{ marginTop: '8px',marginLeft:'6px',fontSize:'43px',color:'white', }} />}
    content={
    <h2 className='cardh2'>Branch Office</h2>
    }
@@ -81,12 +86,15 @@ return(
       <h3 className='cardh2'>ECR(Kalpakkam)</h3>
       }
    number={
-   <h3 className='cardh3'>8754393103</h3>
+
+   <a href="8754393103" aria-label="Call 8754393103">
+      <h3 className="cardh3">8754393103</h3>
+    </a>
    }
    >  
    </Card>
    <Card
-   icon3={<GrUserManager style={{ marginTop: '8px',marginLeft:'6px',fontSize:'43px',color:'white', }} />}
+   icon3={<FaRegBuilding style={{ marginTop: '8px',marginLeft:'6px',fontSize:'43px',color:'white', }} />}
    content={
    <h2 className='cardh2'>Branch Office</h2>
    }
@@ -94,7 +102,10 @@ return(
       <h3 className='cardh2'>Courtallam</h3>
       }
    number={
-   <h3 className='cardh3'>9994283692</h3>
+
+   <a href="tel:+9994283692" aria-label="Call 9994283692">
+      <h3 className="cardh3">9994283692</h3>
+    </a>
    }
    >  
    </Card>

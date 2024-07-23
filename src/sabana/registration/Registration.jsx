@@ -96,7 +96,7 @@ const Registration = () => {
               </div>
             </div>
 
-            <button type="submit" className="btn" style={style}>
+            <button type="Submit" className="btn" style={style}>
               {loading ? <Loader size={25} color={'#fff'} /> : <>{(state.message && 'Retry') || submitted}</>}
             </button>
           </form>
