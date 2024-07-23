@@ -23,7 +23,7 @@ body, html {
 
 .login-bgs{
   width: 150px;
-  height: 95px;
+  /* height: 95px; */
   margin-left: 130px;
   margin-top: 5px;
 }
@@ -61,12 +61,18 @@ body, html {
   outline: none;
 } */
 
-
+.input-fieldr-email{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f5f5dc;
+}
 
 .input-fieldr {
   width: 100%;
   padding: 15px;
-  margin: 5px 0 22px 0;
+  margin: 5px 0 12px 0;
   border: none;
   background: #f5f5dc;
 }
@@ -95,8 +101,8 @@ body, html {
 .input-container1{
   display: flex;
   flex-direction: row;
-  width: 472px;
-  gap: 8px;
+  width: 380px;
+  /* gap: 8px; */
 }
     
 .p-div{
@@ -123,7 +129,12 @@ body, html {
 
 @media only screen and (max-width: 768px) {
 
-
+.input-fieldr-email{
+  width: 84%;
+  margin-left: 16px;
+  border: none;
+ 
+}
 
   .containers {
     width: 90%;
@@ -150,16 +161,14 @@ body, html {
 
   }
 
-  .pName{
-    margin-left: 35px;
-  }
+
 
    input[type=text],  input[type=password] {
-    width: 70%;
+    width: 85%;
     
     border: none;
     background: #f5f5dc;
-    margin-left: 35px;
+    margin-left: 16px;
 
   }
 
@@ -184,7 +193,7 @@ body, html {
 
 .login-bgs{
   width: 140px;
-  height: 85px;
+  /* height: 65px; */
   margin-left:80px;
   margin-top: 5px;
 }
