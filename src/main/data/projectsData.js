@@ -22,8 +22,13 @@
 // nearby	HIRUMALAI KUMARASAMY KOVIL				
 let projects =  [
     {
+<<<<<<< HEAD
             projectName: "ECR",
             subTitle: "22 lakhs onwatrds",
+=======
+            projectName: "Plot in ECR",
+            subTitle: "22 lakhs onwards",
+>>>>>>> d236c31f1b357d89fcab633657fde6a05fa7fba4
             box: [
                 {id: {numberInt: "1"}, head: "Type", content: "Plot/Cottage",},
                 {id: {numberInt: "2"}, head: "Location", content: "ECR(Pudupattinam)",},
@@ -32,7 +37,7 @@ let projects =  [
                 // {id: {numberInt: "5"}, head: "Marah Doyle", content: "Noelani Roberts", _id: {oid: "66473f5a63fd348af9a91a63"}},
                 // {id: {numberInt: "6"}, head: "Tanisha Cain", content: "Alika Daugherty", _id: {oid: "66473f5a63fd348af9a91a64"}}
             ],
-            projectOverview: "  The Income Cottage Sale project, located in the prime area of East Coast Road (ECR), Chennai, offers an attractive investment opportunity with a guaranteed 12% annual return. Priced at 22 lakhs, the project includes a 1200 sqft plot with a 400 sqft built-up area. This development boasts comprehensive facilities such as 24/7 service, a swimming pool, a fitness center, a restaurant, a conference hall, a kids' play park, and a spa & wellness center. These amenities ensure a luxurious and comfortable living experience for residents and a high potential for rental income. The strategic location in ECR provides excellent connectivity, serene surroundings, and proximity to major attractions and commercial hubs, making it an ideal choice for both vacationers and long-term residents. The combination of affordable pricing, lucrative returns, and extensive facilities makes this project a highly appealing option for investors looking to diversify their portfolio and secure a steady income stream. With its well-planned infrastructure and premium amenities, the Income Cottage Sale project stands out as a promising investment in Chennai's real estate market.  ",
+            projectOverview: `ECR is a stunning coastal highway in Chennai, offering breathtaking views of the Bay of Bengal. This picturesque route is dotted with charming beaches, making it a haven for nature lovers and weekend travelers alike. Income Cottage Sale on Chennai's East Coast Road (ECR) presents a prime investment opportunity with a guaranteed 12% annual return. Priced at 22 lakhs, the project includes a 1200 sqft plot and 400 sqft built-up area, offering amenities like a pool, spa, and fitness center. Its prime location ensures excellent connectivity, making it perfect for vacationers and long-term residents alike. Affordable pricing, lucrative returns, and comprehensive facilities make this project a standout investment in Chennai's real estate market.  `,
             location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.373369871729!2d79.5753025!3d10.4712041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a53616f4c9ea6dd%3A0xc50f0832755a9625!2sEast%20Coast%20Rd!5e0!3m2!1sen!2sin!4v1721471055183!5m2!1sen!2sin",
 
             nearByAttraction: [{
@@ -44,8 +49,21 @@ let projects =  [
                     { point: "Kovalam (Covelong) Beach",},
                     { point: "Muttukadu Backwaters",},
                     { point: "Bay of Bengal",},
+                ]},
+                {
+                title: "Pondicherry",
+                points: [
+                    { point: "Paradise Beach",},
+                    { point: "French Colony (White Town)",},
+                    { point: "Rock Beach (Goubert Avenue)",},
+                    { point: "Manakula Vinayagar Temple",},
+                    { point: "Pondicherry Lighthouse",},
+                    { point: "Serenity Beach",},
                 ]
-            }],
+            },],
+
+    
+
 
             projectsAmmenities: [
                 {id: {numberInt: "1"}, img: require('./img/swimming-poo.jpg'), content: "Swimming Pool", },
@@ -158,7 +176,7 @@ let projects =  [
                 // {id: {numberInt: "5"}, head: "Marah Doyle", content: "Noelani Roberts", _id: {oid: "66473f5a63fd348af9a91a63"}},
                 // {id: {numberInt: "6"}, head: "Tanisha Cain", content: "Alika Daugherty", _id: {oid: "66473f5a63fd348af9a91a64"}}
             ],
-            projectOverview: "The Income Property for Sale in Coutrallam offers a highly profitable investment opportunity with a 34 lakh price tag for a cottage villa. This property guarantees a monthly rental income of ₹34,000 or more for the next 12 years, ensuring a steady and attractive return on investment. The villa is nestled in a lush garden featuring 52 varieties of trees and an herbal farm, adding to the property's charm and value. Coutrallam, known for its serene environment and natural beauty, enhances the appeal of this investment. With its combination of reliable rental income and rich natural surroundings, this property stands out as a lucrative investment option.",
+            projectOverview: "Courtallam, often called the Spa of South India, is renowned for its breathtaking waterfalls and lush greenery. Nestled in the Western Ghats of Tamil Nadu, it offers a serene escape with its medicinal springs and picturesque landscapes.The Income Property for Sale in Coutrallam offers a highly profitable investment opportunity with a 34 lakh price tag for a cottage villa. This property guarantees a monthly rental income of ₹34,000 or more for the next 12 years, ensuring a steady and attractive return on investment. The villa is nestled in a lush garden featuring 52 varieties of trees and an herbal farm, adding to the property's charm and value. Coutrallam, known for its serene environment and natural beauty, enhances the appeal of this investment. With its combination of reliable rental income and rich natural surroundings, this property stands out as a lucrative investment option.",
             location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356778.47788598423!2d77.10484780957812!3d8.88965879958944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06811adea8d775%3A0x2c535132cebbf5a!2sPanboli%2C%20Tamil%20Nadu%20627807!5e0!3m2!1sen!2sin!4v1721471177328!5m2!1sen!2sin',
             nearByAttraction: [{
                 title: "Near By Attraction",
