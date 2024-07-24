@@ -7,7 +7,7 @@ import Loader from '../../main/assets/Loader';
 const style = { display: 'flex', alignItems: 'center', justifyContent: 'center' };
 
 const Registration = () => {
-  // const [formInfo, setFormInfo] = useState('');
+
   const formRef = useRef();
   const [submitted , setSubmitted]  = useState('submit')
   const [submit, loading, state] =  useFormPost(setSubmitted);
@@ -77,15 +77,6 @@ const Registration = () => {
                 <input className="input-fieldr" type="text" placeholder="Enter your Phone number" name="phone" required />
               </div>
             </div>
-
-            {/* <div className="input-container1">
-              <div className="p-div">
-                <p className="pName">State*</p>
-              </div>
-              <div className="select">
-                <input className="input-fieldr" type="text" placeholder="Enter your State" name="stater" required />
-              </div>
-            </div> */}
 
             <div className="input-container1">
               <div className="p-div">
