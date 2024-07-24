@@ -23,7 +23,7 @@ body, html {
 
 .login-bgs{
   width: 150px;
-  /* height: 95px; */
+
   margin-left: 130px;
   margin-top: 5px;
 }
@@ -48,18 +48,7 @@ body, html {
 }
 
 
- /* input[type=text],  input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f5f5dc;
-}
-
- input[type=text]:focus,  input[type=password]:focus {
-  background-color: #ffffff;
-  outline: none;
-} */
+ 
 
 .input-fieldr-email{
   width: 100%;
@@ -119,12 +108,6 @@ body, html {
   color: #333;
   background-color: #f5f5dc;
 }
-/* .pName{
-  margin-left: 35px;
-} */
-/* #mySelect:hover {
-  border-color: #d11111;
-} */
 
 
 @media only screen and (max-width: 768px) {
@@ -226,6 +209,122 @@ body, html {
   }
  
 }
+
+
+
+@media only screen and (max-width: 430px) {
+
+  .input-fieldr-email {
+    width: 90%;  /* Adjust the width to fit small screens */
+    margin: 0 auto; /* Center align */
+    margin-bottom: 15px; /* Add space below the field */
+    border: none;
+  }
+
+  .containers {
+    width: 95%; /* Reduce container width for smaller screens */
+    padding: 10px; /* Add padding */
+  }
+
+  .input-container1 {
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 0 auto; /* Center align button */
+    display: block; /* Make button block level */
+    background-color: #a54141; /* Consistent button color */
+    padding: 12px 0;
+    font-size: 16px; /* Increase font size for better readability */
+    opacity: 0.9;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  #mySelect {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: none;
+    color: #333;
+    background-color: #f5f5dc;
+    margin: 10px 0;
+  }
+
+  input[type=text],
+  input[type=password],
+  input[type=email] {
+    width: 90%;
+    margin: 0 auto; /* Center align */
+    border: none;
+    background: #f5f5dc;
+    margin-bottom: 15px; /* Add space below input */
+    padding: 10px;
+    border-radius: 4px; /* Rounded corners for inputs */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+
+  .radio-inline {
+    margin-left: 0; /* Remove left margin for better alignment */
+    margin-right: 10px; /* Add space between radio buttons */
+    display: inline-block; /* Align radio buttons horizontally */
+  }
+
+  .login-bgs {
+    width: 120px; /* Adjust image size for smaller screens */
+    margin: 10px auto; /* Center image */
+    display: block; /* Ensure image is block level */
+  }
+
+  .vendor-h2 {
+    font-size: 18px; /* Increase font size for titles */
+    padding: 0;
+    margin: 15px 0;
+    text-align: center; /* Center align title text */
+  }
+
+  .input-container {
+    width: 100%;
+    padding: 10px 0; /* Add padding for better spacing */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-div {
+    margin-bottom: 5px; /* Space between label and input */
+    text-align: left; /* Align labels to the left */
+    font-weight: bold;
+  }
+
+  .pName {
+    font-size: 14px; /* Font size for labels */
+    color: #333; /* Dark text color for readability */
+  }
+
+  .select select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    color: #333;
+    background-color: #f5f5dc;
+    margin-top: 5px;
+    border-radius: 4px; /* Rounded corners */
+  }
+
+  .minifooter {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333; /* Footer background color */
+    color: white; /* Footer text color */
+    text-align: center; /* Center align text in footer */
+    font-size: 12px; /* Smaller footer text */
+  }
+}
+
 
 
 
