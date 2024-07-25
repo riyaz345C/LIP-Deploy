@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6d36923.css",
-    "main.js": "/static/js/main.b3104fbe.js",
+    "main.css": "/static/css/main.c4e7341d.css",
+    "main.js": "/static/js/main.e1c9d217.js",
     "static/js/453.b4b5a85a.chunk.js": "/static/js/453.b4b5a85a.chunk.js",
     "static/media/resturant.jpg": "/static/media/resturant.8f6559a77ca1314ef904.jpg",
     "static/media/swimming-poo.jpg": "/static/media/swimming-poo.27f9818436e6ddee3731.jpg",
     "static/media/yr12-4.jpg": "/static/media/yr12-4.523c2844590f1311ebec.jpg",
-    "static/media/projects-specification-img-brixton.png": "/static/media/projects-specification-img-brixton.f3dddee4652dc856ead8.png",
     "static/media/10-year1.jpg": "/static/media/10-year1.ebf2205fe55ca078a378.jpg",
     "static/media/10-year4.jpg": "/static/media/10-year4.ebf2205fe55ca078a378.jpg",
     "static/media/10-year3.jpg": "/static/media/10-year3.4ca7174db6bba9a6b205.jpg",
@@ -71,12 +70,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.a6d36923.css.map": "/static/css/main.a6d36923.css.map",
-    "main.b3104fbe.js.map": "/static/js/main.b3104fbe.js.map",
+    "main.c4e7341d.css.map": "/static/css/main.c4e7341d.css.map",
+    "main.e1c9d217.js.map": "/static/js/main.e1c9d217.js.map",
     "453.b4b5a85a.chunk.js.map": "/static/js/453.b4b5a85a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6d36923.css",
-    "static/js/main.b3104fbe.js"
+    "static/css/main.c4e7341d.css",
+    "static/js/main.e1c9d217.js"
   ]
 }
