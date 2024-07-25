@@ -72,6 +72,11 @@ let projects =  [
             ],
 
             projectPlan: require('./img/ecr.jpg'),
+            projectPlanSlider:[require('./img/ecr.jpg'),
+            require('./img/ecr/ecr1.jpeg'),
+            require('./img/ecr/ecr2.jpeg'),
+            require('./img/ecr/ecr3.jpeg'),
+            ],
             sitemap : require('./img/sitemap.jpg'),
 
             faq: [
@@ -139,6 +144,13 @@ let projects =  [
             ],//imgae
 
             projectPlan: require('./img/kodaikanal.jpg'),//image
+            projectPlanSlider:[require('./img/kodaikanal.jpg'),
+            require('./img/kodaikanal/kodaikanal1.jpeg'),
+            require('./img/kodaikanal/kodaikanal2.jpeg'),
+            require('./img/kodaikanal/kodaikanal3.jpeg'),
+            require('./img/kodaikanal/kodaikanal4.jpeg'),
+            require('./img/kodaikanal/kodaikanal6.jpeg'),
+            ],
             sitemap : require('./img/sitemap.jpg'),
 
             faq: [
@@ -196,6 +208,14 @@ let projects =  [
             ],//imgae
 
             projectPlan: require('./img/courtalam.jpg'),//image
+            projectPlanSlider:[require('./img/courtalam.jpg'),
+            require('./img/courtallam/courtallam1.jpeg'),
+            require('./img/courtallam/courtallam2.jpeg'),
+            require('./img/courtallam/courtallam3.jpeg'),
+            require('./img/courtallam/courtallam4.jpeg'),
+            require('./img/courtallam/courtallam6.jpeg'),
+            require('./img/courtallam/courtallam7.jpeg'),
+            ],
             sitemap : require('./img/courtlam-sitemap.jpg'),
 
             faq: [
@@ -253,6 +273,7 @@ let projects =  [
             ],//imgae
 
             projectPlan: require('./img/resturant.jpg'),//image
+            projectPlanSlider:[require('./img/resturant.jpg'),require('./img/resturant.jpg'),],//dummy_value
             sitemap : require('./img/sitemap.jpg'),
             faq: [
                 {id: "1", question: "What is the offer for the plots in Ulundurpettai?",

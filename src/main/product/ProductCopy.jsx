@@ -8,16 +8,19 @@ import Faq from '../component/FAQ/Faq'
 import { Link, useParams } from 'react-router-dom'
 import projects from '../data/projectsData'
 import ProjectHighSliderv2 from '../../others/projects/components/ProjectHighSliderv2'
+import Slider from 'react-slick'
+import { settings } from '../component/SliderOwn'
 
 let x = [ 'Location','Features', 'Highlights', 'Plans' ,'FAQ’s']
 
 function ProductCopy() {
+  const settingsCopy = {...settings,fade:false}
   
     const handleHashChange = (e) => {
       const hash = e
       console.log(e,'lop');
       if (hash) {
-        const element = document.querySelector('#'+hash); debugger
+        const element = document.querySelector('#'+hash);
         if (element) {
           element.scrollIntoView({ behavior: 'smooth' ,block: 'center'});
         }
@@ -37,11 +40,12 @@ projectData = projectData[0]
 console.log(projectData);
 return (
     <>
-      <section className='product-section-1'> 
-          <div className="img">
-              {/* <img src={img||`https://www.vgn.in/asset/img/banners/project-banner.jpg`} alt="" /> */}
-              <img src={projectData.projectPlan} alt="" />
-          </div>
+      <section className='product-section-1'>
+        <Slider {...settingsCopy}>
+          {projectData.projectPlanSlider.map((e,i) =><div className="img" key={i}>
+              <img src={e} alt="" />
+          </div>)}
+        </Slider> 
           <div className="product-info">
               <ProductInfo projectName={projectData.projectName} 
               subtitle={projectData.subTitle}

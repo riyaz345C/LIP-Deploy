@@ -43,7 +43,7 @@ function Home() {
     return () => {
     popup()
     }
-  }, [])
+  },[])
 
   function popup(){
     const x = setTimeout(() => {
@@ -51,7 +51,7 @@ function Home() {
       console.log(10);
     }, 1000);
     return x
-    console.log(20);
+    
   }   
   const [pause,setPause] = useState(false)
     setTimeout(()=> {setPause(true)} , 10000)
@@ -71,8 +71,8 @@ function Home() {
       <div className="hero-img-container">
       <img src={require('./assets/main.avif')} alt="" className='hero-img' />
       <section  className='hero-content'>
-        <h1>World Class Homes</h1>
-        <h1>At the heart of Chennai</h1>
+        <h1>Your Key to Real Estate </h1>
+        <h1>Success</h1>
         {/* <button onClick={()=>setToggle(true)}>tog</button> */}
       </section>
       </div>

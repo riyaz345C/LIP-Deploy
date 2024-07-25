@@ -6,25 +6,31 @@
 }
 .semi-circle {
     position: absolute;
-    top: 88%;
+    /* top: 88%; */
+    top: calc(61.5px + 80px + 425px);
+    /* left: 50%; */
     left: 50%;
     transform: translate(-50%, -50%);
     height: 125px;
     width: 236px;
     border-radius: 150px 150px 0 0;
     background-color: rgb(109, 19, 19);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 .contact{
     font-size: 22px;
     color: white;
-    margin-left: 77px;
+    /* margin-left: 77px; */
 
 
 }
 .element{
     color: white;
-    margin-left: 90px;
-    margin-top: 20px;
+    /* margin-left: 90px; */
+    /* margin-top: 20px; */
 
 }
 .doubearrow{
@@ -136,7 +142,9 @@
     width: 240px;
     text-align: justify;
 }
-
+@media screen and (max-width:355px) {
+    .ptag{width: auto;}
+}
 .icontil{
 margin-top: 8px;
 margin-left: 6px;
@@ -167,6 +175,7 @@ font-size: 64px;
 
 .item12{
     width: 330px;
+    
 }
 /* .item2{
     width: 700px;
@@ -203,8 +212,11 @@ font-size: 64px;
     border-radius: 50%; 
     overflow: hidden; 
 }
-
-
+@media screen and (max-width:387px){
+    .leadership-bg,.item12{
+        width: 100%; 
+    }
+}
 
 .leadership-p {
     font-size: 20px;
@@ -395,7 +407,7 @@ font-size: 64px;
     left:42%;
     color: white;
     width: 200px;
-    height: 160px;
+    /* height: 160px; */
     text-align: justify;
     background-color: #6d1313;
     opacity: 0.8; 
@@ -463,7 +475,8 @@ font-size: 64px;
 
     .semi-circle {
        
-        top: 102%;
+        /* top: 102%; */
+        top: calc(61.5px + 80px + 425px)
         
        
         

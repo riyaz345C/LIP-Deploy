@@ -64,7 +64,7 @@ return(
    <div className="pinkbox">
       <div class="container-contact">
          <div class="topp">
-            <a href="#" className='homec'>
+            <a href="/#" className='homec'>
                <p>Home</p>
             </a>
             <FaAngleRight className='singlearrow'   />

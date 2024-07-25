@@ -20,7 +20,7 @@ function SliderOwn() {
         // slidesToShow: ((width<800)? 1 : ((width<888)? 2 : 3) ),  
         slidesToShow: 2,  
         slidesToScroll: 1,
-        // autoplay:true, 
+        autoplay:true, 
         autoplaySpeed:2000,
         pauseOnHover:true,
         responsive:[
