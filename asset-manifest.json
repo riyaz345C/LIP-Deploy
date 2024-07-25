@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc17d778.css",
-    "main.js": "/static/js/main.ee676a9f.js",
+    "main.css": "/static/css/main.a6d36923.css",
+    "main.js": "/static/js/main.b3104fbe.js",
     "static/js/453.b4b5a85a.chunk.js": "/static/js/453.b4b5a85a.chunk.js",
     "static/media/resturant.jpg": "/static/media/resturant.8f6559a77ca1314ef904.jpg",
     "static/media/swimming-poo.jpg": "/static/media/swimming-poo.27f9818436e6ddee3731.jpg",
@@ -12,11 +12,21 @@
     "static/media/10-year3.jpg": "/static/media/10-year3.4ca7174db6bba9a6b205.jpg",
     "static/media/10-year2.jpg": "/static/media/10-year2.b74cfea9aeda57db3fbd.jpg",
     "static/media/hero.avif": "/static/media/hero.c74e27a819ef2fb97c21.avif",
+    "static/media/courtallam7.jpeg": "/static/media/courtallam7.f10d0f2062601f9f19a0.jpeg",
     "static/media/yr12-3.jpg": "/static/media/yr12-3.b0cdf2bdc30c9812696b.jpg",
     "static/media/bg-gallery.jpg": "/static/media/bg-gallery.cb02d95c8debcdd99df8.jpg",
+    "static/media/kodaikanal3.jpeg": "/static/media/kodaikanal3.464f90f33039224cfb6e.jpeg",
+    "static/media/courtallam3.jpeg": "/static/media/courtallam3.637800914c5f7e424601.jpeg",
     "static/media/fitness-center.jpg": "/static/media/fitness-center.127f31d92e03a3ef8a02.jpg",
+    "static/media/ecr3.jpeg": "/static/media/ecr3.bbfd018327084124fd63.jpeg",
+    "static/media/courtallam6.jpeg": "/static/media/courtallam6.05201dbd726d67f19aad.jpeg",
     "static/media/meeting-hall.jpg": "/static/media/meeting-hall.38e243bf7974c21910aa.jpg",
     "static/media/ecr.jpg": "/static/media/ecr.66fb514e0259dcf88781.jpg",
+    "static/media/kodaikanal2.jpeg": "/static/media/kodaikanal2.087ab55cc7245ebde8df.jpeg",
+    "static/media/ecr2.jpeg": "/static/media/ecr2.c17259149674d17631ac.jpeg",
+    "static/media/kodaikanal1.jpeg": "/static/media/kodaikanal1.a1393128f70a7c9d581f.jpeg",
+    "static/media/kodaikanal6.jpeg": "/static/media/kodaikanal6.83d4714260aec305a402.jpeg",
+    "static/media/kodaikanal4.jpeg": "/static/media/kodaikanal4.4738cf2035cd15e43305.jpeg",
     "static/media/year-111.jpg": "/static/media/year-111.964e8a1a1b7b34068fa8.jpg",
     "static/media/kodaikanal.jpg": "/static/media/kodaikanal.2a758932bfe5360e70a8.jpg",
     "static/media/courtalam.jpg": "/static/media/courtalam.c8ab6ff84a33f62464c7.jpg",
@@ -26,6 +36,9 @@
     "static/media/person1.jpg": "/static/media/person1.97f14468453aa14ada58.jpg",
     "static/media/yr12-1.jpg": "/static/media/yr12-1.851f7d66cc2d7126c33f.jpg",
     "static/media/person3.jpg": "/static/media/person3.a04fc0e5707a13419e64.jpg",
+    "static/media/ecr1.jpeg": "/static/media/ecr1.05d2cd468576d804afe1.jpeg",
+    "static/media/courtallam1.jpeg": "/static/media/courtallam1.02c388e923e30f4b45e2.jpeg",
+    "static/media/courtallam4.jpeg": "/static/media/courtallam4.f9699e645ba93b98b470.jpeg",
     "static/media/year-112.jpg": "/static/media/year-112.dff7c3f9f5cbb9fa5952.jpg",
     "static/media/year-113.jpg": "/static/media/year-113.0888e54d2a5765caa560.jpg",
     "static/media/yr12-2.jpg": "/static/media/yr12-2.a959bb2e8576f24336de.jpg",
@@ -37,6 +50,7 @@
     "static/media/site-plan.jpg": "/static/media/site-plan.6a55357ccd570000df30.jpg",
     "static/media/kidsplay-park.jpg": "/static/media/kidsplay-park.b4da45c980b2802cc080.jpg",
     "static/media/niyas-new.png": "/static/media/niyas-new.dadd6977d5f3945b63d4.png",
+    "static/media/courtallam2.jpeg": "/static/media/courtallam2.28d9ac68b4cc5efac276.jpeg",
     "static/media/contact-bg.jpg": "/static/media/contact-bg.1c885329f48ba99a4d42.jpg",
     "static/media/courtlam-sitemap.jpg": "/static/media/courtlam-sitemap.bd891612196b47e886bf.jpg",
     "static/media/sitemap.jpg": "/static/media/sitemap.007823635fe0e13533f2.jpg",
@@ -57,12 +71,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.dc17d778.css.map": "/static/css/main.dc17d778.css.map",
-    "main.ee676a9f.js.map": "/static/js/main.ee676a9f.js.map",
+    "main.a6d36923.css.map": "/static/css/main.a6d36923.css.map",
+    "main.b3104fbe.js.map": "/static/js/main.b3104fbe.js.map",
     "453.b4b5a85a.chunk.js.map": "/static/js/453.b4b5a85a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc17d778.css",
-    "static/js/main.ee676a9f.js"
+    "static/css/main.a6d36923.css",
+    "static/js/main.b3104fbe.js"
   ]
 }
