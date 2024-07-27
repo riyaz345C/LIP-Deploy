@@ -10,6 +10,7 @@ import projects from '../data/projectsData'
 import ProjectHighSliderv2 from '../../others/projects/components/ProjectHighSliderv2'
 import Slider from 'react-slick'
 import { settings } from '../component/SliderOwn'
+import { FaAngleRight } from 'react-icons/fa6'
 
 let x = [ 'Location','Features', 'Highlights', 'Plans' ,'FAQ’s']
 
@@ -64,7 +65,9 @@ return (
       <section className='product-section-2'>
           <div className="path">
               <span>Home</span> 
+              <FaAngleRight color='#000'/>
               <span>Projects</span> 
+              <FaAngleRight color='#000'/>
               <span>{projectData.projectName}</span>
           </div>
           {/* <h1>{projectData.projectName}</h1> */}

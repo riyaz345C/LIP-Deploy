@@ -145,11 +145,11 @@ section :is(h1,h2,h3,h4,h5,p){margin: 0;}
 .path :nth-child(n):not(:last-child){
     color: var(--text-red);
 }
-.path :nth-child(n):not(:last-child)::after {
+/* .path :nth-child(n):not(:last-child)::after {
     content: ">";
     font-size: 25px;
     color: #000;
-}
+} */
 .head-line{
     font-weight: 900;
     /* font-size: 2px; */

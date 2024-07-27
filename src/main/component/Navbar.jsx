@@ -40,7 +40,7 @@ function Navbar({projectData}) {
   return (
     <>
     <nav className='lip-navbar'>
-    <img src={logo} alt="Logo" />
+    <Link to={`/`}><img src={logo} alt="Logo" /></Link>
     <div className='lip-nav-links'>
       {routes.map((e,i)=>{
         return(
@@ -76,7 +76,7 @@ function Navbar({projectData}) {
               }
             </div>
           </Link>
-          {e.dropdown && <MdOutlineArrowDropDown style={{transform: `rotate(${rotate==e.name?'180deg':'0deg'})`}}/> }
+          {e.dropdown && <MdOutlineArrowDropDown style={{transform: `rotate(${rotate===e.name?'180deg':'0deg'})`}}/> }
           </li>
         )
     })}</div>

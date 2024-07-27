@@ -24,7 +24,7 @@ return(
 </div>
 <div class="container-contact">
    <div class="topp">
-      <a href="#" className='homec'>
+      <a href="/" className='homec'>
          <p>Home</p>
       </a>
       <FaAngleRight className='singlearrow'   />
@@ -47,68 +47,40 @@ return(
 <br />
 <div className="container">
    <Card 
-   icon1={<FaPhoneVolume style={{ marginTop: '8px',marginLeft:'6px',fontSize:'43px',color:'white', }} />}
-   content={
-   <h2  className='cardh2'>Head Office</h2>
-   }
-   place={
-      <h3 className='cardh2'>Pallavaram</h3>
-      }
+   icon1={<FaPhoneVolume style={{ margin:'auto',fontSize:'43px',color:'white', }} />}
+   content={<h2  className='cardh2'>Head Office</h2>}
+   place={<h3 className='cardh2'>Pallavaram</h3>}
    number={
       <a href="tel:+004-42646357" aria-label="Call 004-42646357">
       <h3 className="cardh3">004-42646357</h3>
-    </a>
-   }
-   >
-   </Card>
+    </a>}
+   />
    <Card
-   icon2={<FaRegBuilding  style={{ marginTop: '8px',marginLeft:'6px',fontSize:'43px',color:'white', }} />}
-   content={
-   <h2 className='cardh2'>Branch Office</h2>
-   }
-   place={
-      <h3 className='cardh2'>Veppur</h3>
-      }
+   icon2={<FaRegBuilding  style={{ margin:'auto',fontSize:'43px',color:'white', }} />}
+   content={<h2 className='cardh2'>Branch Office</h2>}
+   place={<h3 className='cardh2'>Veppur</h3>}
    number={
    <a href="tel:+9790578985" aria-label="Call 9790578985">
       <h3 className="cardh3">9790578985</h3>
-    </a>
-   }
-   
-   >
-   </Card>
+    </a>}
+   />
    <Card
-   icon3={<FaRegBuilding  style={{ marginTop: '8px',marginLeft:'6px',fontSize:'43px',color:'white', }} />}
-   content={
-   <h2 className='cardh2'>Branch Office</h2>
-   }
-   place={
-      <h3 className='cardh2'>ECR(Kalpakkam)</h3>
-      }
+   icon3={<FaRegBuilding  style={{ margin:'auto',fontSize:'43px',color:'white', }} />}
+   content={<h2 className='cardh2'>Branch Office</h2>}
+   place={<h3 className='cardh2'>ECR(Kalpakkam)</h3>}
    number={
-
    <a href="8754393103" aria-label="Call 8754393103">
       <h3 className="cardh3">8754393103</h3>
-    </a>
-   }
-   >  
-   </Card>
+    </a>}
+   />  
    <Card
-   icon3={<FaRegBuilding style={{ marginTop: '8px',marginLeft:'6px',fontSize:'43px',color:'white', }} />}
-   content={
-   <h2 className='cardh2'>Branch Office</h2>
-   }
-   place={
-      <h3 className='cardh2'>Courtallam</h3>
-      }
+   icon3={<FaRegBuilding style={{ margin:'auto',fontSize:'43px',color:'white', }} />}
+   content={<h2 className='cardh2'>Branch Office</h2> }
+   place={<h3 className='cardh2'>Courtallam</h3>}
    number={
-
    <a href="tel:+9994283692" aria-label="Call 9994283692">
       <h3 className="cardh3">9994283692</h3>
-    </a>
-   }
-   >  
-   </Card>
+    </a>}/>  
 </div>
 <div className="map-container">
    <iframe

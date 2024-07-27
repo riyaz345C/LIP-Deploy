@@ -22,8 +22,9 @@
     font-weight: 600;
     font-size: 20px;
 }
+
 .lip-navbar img:first-child{
-    width: clamp(100px,50%,200px);
+    width: clamp(100px,10vw,200px);
     object-fit: contain;
     height: 100%;
 }

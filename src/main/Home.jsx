@@ -63,7 +63,7 @@ function Home() {
       <div className="hero-img-container">
       <img src={hero} alt="" className='hero-img' />
       <section  className='hero-content'>
-        <h1>Trusted Real Estate Solution</h1>
+        <h1 style={{textAlign:'center'}}>Trusted Real Estate Solution</h1>
         <h1>For Every Lifestyle</h1>
         {/* <button onClick={()=>setToggle(true)}>tog</button> */}
       </section>

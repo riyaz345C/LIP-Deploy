@@ -17,7 +17,7 @@ export const routes = [
         dropdown: true
     },
     {
-        name:'LIP Scheme',
+        name:'LIP scheme',
         path:'/infra'
     },
     {

@@ -1,7 +1,7 @@
 import axios from "axios"
 import { api } from "../others/api/api";
 
-const useMailSend = (popupFormRef,setloading,formType,setSubmitted) => {
+const useMailSend = (popupFormRef,setloading,formType,setSubmitted,tog) => {
     const handleSubmit = async(e) => {
         e.preventDefault()
         try {
@@ -20,6 +20,7 @@ const useMailSend = (popupFormRef,setloading,formType,setSubmitted) => {
             console.log(submitData);
             console.log(postData);
             popupFormRef.current.reset()
+            tog(false)
             setSubmitted('submitted')
         } catch (error) {
             setSubmitted('retry')

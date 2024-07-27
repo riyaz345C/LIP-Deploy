@@ -23,6 +23,7 @@ function SliderOwn() {
         autoplay:true, 
         autoplaySpeed:2000,
         pauseOnHover:true,
+        arrows:false,
         responsive:[
           {
             breakpoint:890,

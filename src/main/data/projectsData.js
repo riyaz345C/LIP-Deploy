@@ -22,7 +22,7 @@
 // nearby	HIRUMALAI KUMARASAMY KOVIL				
 let projects =  [
     {
-            projectName: "ECR",
+            projectName: "ECR (Pudupattinam)",
             subTitle: "22 lakhs onwatrds",
             box: [
                 {id: {numberInt: "1"}, head: "Type", content: "Plot/Cottage",},

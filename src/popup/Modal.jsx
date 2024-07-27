@@ -54,7 +54,7 @@ const Modal = ({tog}) => {
             clearTimeout(timeoutId); // Clear the timeout on unmount or dependency change
         };
     }, [tog]);
-    const [handleSubmit,] = useMailSend(popupFormRef,setloading,'popup',setSubmitted)
+    const [handleSubmit,] = useMailSend(popupFormRef,setloading,'popup',setSubmitted,tog)
     // const handleSubmit = async(e) => {
     //     e.preventDefault()
     //     try {

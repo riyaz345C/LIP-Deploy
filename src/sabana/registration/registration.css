@@ -325,6 +325,13 @@ body, html {
   }
 }
 
-
+@media screen and (max-width: 380px){ 
+  .form-vendor{
+    width:90%;
+  }
+  .select{
+    width: 100%;
+  }
+}
 
 
