@@ -73,7 +73,22 @@
     z-index: -1;
     overflow: hidden;
 }
-
+.content li{
+    list-style: square;
+}
 .read-more{
     padding-left: 0 !important;
+}
+.read-more{
+    width: 100%;
+}
+@media screen and (max-width: 470px) {
+    .read-more{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 415px) {
+    .read-more{
+        font-size: 13px;
+    }
 }
