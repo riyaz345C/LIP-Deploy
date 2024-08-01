@@ -32,7 +32,13 @@ let projects =  [
                 // {id: {numberInt: "5"}, head: "Marah Doyle", content: "Noelani Roberts", _id: {oid: "66473f5a63fd348af9a91a63"}},
                 // {id: {numberInt: "6"}, head: "Tanisha Cain", content: "Alika Daugherty", _id: {oid: "66473f5a63fd348af9a91a64"}}
             ],
-            projectOverview: `ECR is a stunning coastal highway in Chennai, offering breathtaking views of the Bay of Bengal. This picturesque route is dotted with charming beaches, making it a haven for nature lovers and weekend travelers alike. Income Cottage Sale on Chennai's East Coast Road (ECR) presents a prime investment opportunity with a guaranteed 12% annual return. Priced at 22 lakhs, the project includes a 1200 sqft plot and 400 sqft built-up area, offering amenities like a pool, spa, and fitness center. Its prime location ensures excellent connectivity, making it perfect for vacationers and long-term residents alike. Affordable pricing, lucrative returns, and comprehensive facilities make this project a standout investment in Chennai's real estate market.  `,
+            projectOverview: `
+            ECR is a stunning coastal highway in Chennai, offering breathtaking views of the Bay of Bengal.
+            This picturesque route is dotted with charming beaches, making it a haven for nature lovers and weekend travelers alike. 
+            Income Cottage Sale on Chennai's East Coast Road (ECR) presents a prime investment opportunity with a guaranteed 12% annual return.
+            Priced at 22 lakhs, the project includes a 1200 sqft plot and 400 sqft built-up area, offering amenities like a pool, spa, and fitness center.
+            Its prime location ensures excellent connectivity, making it perfect for vacationers and long-term residents alike.
+            Affordable pricing, lucrative returns, and comprehensive facilities make this project a standout investment in Chennai's real estate market.`,
             location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.373369871729!2d79.5753025!3d10.4712041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a53616f4c9ea6dd%3A0xc50f0832755a9625!2sEast%20Coast%20Rd!5e0!3m2!1sen!2sin!4v1721471055183!5m2!1sen!2sin",
 
             nearByAttraction: [{
@@ -248,7 +254,8 @@ let projects =  [
                 // {id: {numberInt: "5"}, head: "Marah Doyle", content: "Noelani Roberts", _id: {oid: "66473f5a63fd348af9a91a63"}},
                 // {id: {numberInt: "6"}, head: "Tanisha Cain", content: "Alika Daugherty", _id: {oid: "66473f5a63fd348af9a91a64"}}
             ],
-            projectOverview: "This Buy 1 Get 1 Free plot sale in Ulundurpettai, near Veppur, offers a unique opportunity to acquire two 1200 sqft plots for the price of one at just 4 lakhs. Conveniently located just 1.5 km from the Chennai to Trichy Highway and 2 km from Nallur, with additional access to the Kadalur to Oshur Highway, the plots are well-connected for ease of travel. An EB line is available, enhancing the property's utility. This offer provides exceptional value, combining strategic location with the benefit of acquiring two plots for the price of one.",
+            projectOverview: `This Buy 1 Get 1 Free plot sale in Ulundurpettai, near Veppur, offers a unique opportunity to acquire two 1200 sqft plots for the price of one at just 4 lakhs.
+            Conveniently located just 1  km from the Chennai to Trichy Highway and 2 km from Nallur, with additional access to the Kadalur to Oshur Highway, the plots are well-connected for ease of travel. An EB line is available, enhancing the property's utility. This offer provides exceptional value, combining strategic location with the benefit of acquiring two plots for the price of one.`,
             location: "Damian Dalton",
 
             nearByAttraction: [{

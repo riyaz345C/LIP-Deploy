@@ -48,12 +48,18 @@ Established in 2012, LIP has become a leading name in real estate, known for its
                   <FaSquareInstagram  className='iconn' />
                </a>
             </li>
-             <li>
+             {/* <li>
                <a href="https://wa.me/9994547709">
                   <FaWhatsappSquare  className='iconn' />
              
                </a>
+            </li> */}
+            <li>
+               <a href="https://wa.me/919994547709" target="_blank" rel="noopener noreferrer">
+               <FaWhatsappSquare className="iconn" />
+            </a>
             </li>
+
             <li>
                <a href="https://www.linkedin.com/company/lands-india-properties/">
                   <FaLinkedin   className='iconn' />
