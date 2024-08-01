@@ -10,14 +10,9 @@
 
  }
 
-/* .infra-whovr{
- background-color: white;
- padding-top: 35px;
- padding: 0px 25px;
- font-size: 16px;
- line-height: 30px;
- 
-} */
+.ecr-emi ul li{
+  list-style-type: square;
+}
 
 .infra-whovr{
 /* padding-top: 35px; */
@@ -81,10 +76,12 @@
 .rectangle-box > a:hover {
     background-color: #8b3838;
 }
-.road-project{
+/* .road-project{
     background-color: #ececec;
+} */
+.card-title-1{
+  color: rgb(105, 17, 17);
 }
-
 .roadcard{
     width: 340px;
     height: 400px;
@@ -155,17 +152,16 @@
     border: none;
   }
 
-.card-full{
-    /* margin: 0%; */
-    display: flex;
-    /* flex-wrap: ; */
+/* .card-full{
+  
+
     flex-direction: row;
     gap: 20px;
-    /* margin-left: 200px; */
+
     max-width: fit-content;
     margin:  0 auto;
     border-radius: 0%;
-}
+} */
 .bridge{
   margin: 0 4vw;
 }
@@ -242,28 +238,10 @@
     border-radius: 0%;
     margin: 0 auto;
     margin-bottom: 20px;
-    /* margin-left: 50px; */
+   
   }
   
-  .card-img-top {
-    width: 100%;
-    height: auto;
-  }
-  
-  .card-body {
-    width: 100%;
-    padding: 20px;
-    background-color: rgb(253, 253, 253); 
-  }
-  
-  .card-title {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .card-text {
-    font-size: 1rem;
-  }
+ 
   
   .roadimg1 {
     width: 100%; 
@@ -271,15 +249,10 @@
     border: none;
   }
   
-  .card-full {
-    margin: 0 auto; 
-    max-width: 600px; 
-    display: flex;
-    flex-direction: column;
-  }
+ 
   .infra-title{
     font-size: 30px; 
-    text-align: center;
+    
    
  }
  .infra-title span{
@@ -290,8 +263,185 @@
 
 
 
+}
+
+
+.img-card {
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-container-new {
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+  margin: 20px auto; /* Center the card horizontally */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  /* text-align: center; */
+}
+
+.card-column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  border-right: 1px solid #ddd;
+}
+
+.card-column:last-child {
+  border-right: none;
+}
+
+.card-column h4 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.card-column p {
+  font-size: 0.9em;
+  color: #666;
+  margin: 0;
+  line-height: 1.4em;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .card-row {
+      flex-direction: column;
+  }
+
+  .card-column {
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+  }
+
+  .card-column:last-child {
+      border-bottom: none;
+  }
+}
 
 
 
 
+.road-project {
+
+  padding: 1px;
+
+}
+
+.infra-title.form {
+  font-size: 2em;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.about-whovr {
+  font-size: 1.2em;
+  color: #666;
+  /* max-width: 600px; */
+  margin: 0 auto 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-full {
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.card-full:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 15px;
+  /* text-align: center; */
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.card-description {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+  /* text-align: left; */
+}
+
+.card-description li {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  line-height: 1.4em;
+}
+
+
+@media (max-width: 480px) {
+  .infra-title.form {
+      font-size: 1.4em;
+  }
+
+  .about-whovr {
+      font-size: 0.9em;
+      padding: 0 20px;
+  }
+
+  .card-full {
+      width: 95%;
+      max-width: 320px;
+  }
+
+  .card-title {
+      font-size: 1.2em;
+  }
+
+  .card-description li {
+      font-size: 0.8em;
+  }
+}
+@media (max-width: 768px) {
+  .infra-title.form {
+      font-size: 1.6em;
+  }
+
+  .about-whovr {
+      font-size: 1em;
+  }
+
+  .card-title {
+      font-size: 1.4em;
+  }
+
+  .card-description li {
+      font-size: 0.85em;
+  }
 }
