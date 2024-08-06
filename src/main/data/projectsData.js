@@ -23,7 +23,7 @@
 let projects =  [
     {
             projectName: "ECR (Pudupattinam)",
-            subTitle: "22 lakhs onwatrds",
+            subTitle: "22 lakhs onwards",
             box: [
                 {id: {numberInt: "1"}, head: "Type", content: "Plot/Cottage",},
                 {id: {numberInt: "2"}, head: "Location", content: "ECR(Pudupattinam)",},
@@ -86,19 +86,19 @@ let projects =  [
             sitemap : require('./img/sitemap.jpg'),
 
             faq: [
-                {id: "1", question: "What is the Income Cottage Sale project?",
+                {id: "1", question: "What is the Income Cottage Sale project",
                  answer: "The Income Cottage Sale project is a real estate investment opportunity located on East Coast Road (ECR) in Chennai. It features a 1200 sqft plot with a 400 sqft built-up area, offering a guaranteed 12% annual return on investment. The project is designed to provide luxurious and comfortable living with extensive amenities.",
                 },
-                {id: "1", question: "What amenities are included in the Income Cottage Sale project?",
+                {id: "1", question: "What amenities are included in the Income Cottage Sale project",
                 answer: "The project includes a range of comprehensive facilities such as 24/7 service, a swimming pool, a fitness center, a restaurant, a conference hall, a kids' play park, and a spa & wellness center. These amenities are aimed at providing a luxurious and comfortable living experience for residents.",
                },
-               {id: "1", question: "What is the cost and size of the plot in the Income Cottage Sale project?",
+               {id: "1", question: "What is the cost and size of the plot in the Income Cottage Sale project",
                answer: "The cost of the plot in the Income Cottage Sale project is priced at 22 lakhs. The plot size is 1200 sqft, and it includes a 400 sqft built-up area.",
               },
-              {id: "1", question: "What makes the location of the Income Cottage Sale project ideal?",
+              {id: "1", question: "What makes the location of the Income Cottage Sale project ideal",
                answer: "The Income Cottage Sale project is strategically located on East Coast Road (ECR) in Chennai, which provides excellent connectivity, serene surroundings, and proximity to major attractions and commercial hubs. This makes it an ideal choice for both vacationers and long-term residents.",
               },
-              {id: "1", question: "Why is the Income Cottage Sale project a good investment opportunity?",
+              {id: "1", question: "Why is the Income Cottage Sale project a good investment opportunity",
                answer: "The Income Cottage Sale project offers an attractive investment opportunity due to its affordable pricing, guaranteed 12% annual return, and extensive premium amenities. The combination of these factors, along with the well-planned infrastructure and strategic location, makes it a highly appealing option for investors looking to diversify their portfolio and secure a steady income stream.",
               },
             ],
@@ -106,7 +106,7 @@ let projects =  [
         },
         {
             projectName: "Kodaikanal",
-            subTitle: "36 lakhs onwatrds",
+            subTitle: "36 lakhs onwards",
             box: [
                 {id: {numberInt: "1"}, head: "Type", content: "Plot/Cottage",},
                 {id: {numberInt: "2"}, head: "Location", content: "Pannaikadu",},
@@ -160,19 +160,19 @@ let projects =  [
             sitemap : require('./img/sitemap.jpg'),
 
             faq: [
-                {id: "1", question: "What is the Kodaikanal to Pannaikadu DTCP EMI Plots project?",
+                {id: "1", question: "What is the Kodaikanal to Pannaikadu DTCP EMI Plots project",
                  answer: "The Kodaikanal to Pannaikadu DTCP EMI Plots project offers 1500 sqft plots for sale at 36 lakhs. Located on the Vathalagundu to Kodaikanal road, this gated community includes amenities like security, a kids' play area, and park, with easy access to the Moolaiyar River, Kodaikanal, Palani, and Vathalagundu. Buyers can pay 50% upfront and the balance through interest-free EMI.",
                 },
-                {id: "1", question: "What are the payment terms for purchasing a plot?",
+                {id: "1", question: "What are the payment terms for purchasing a plot",
                  answer: "The payment terms for purchasing a plot in this project include paying 50% upfront to register and the remaining 50% through interest-free EMI.",
                 },
-                {id: "1", question: "What benefits do buyers receive with this investment?",
+                {id: "1", question: "What benefits do buyers receive with this investment",
                  answer: "Buyers receive a monthly rental return of 1% for 10 years, maintenance-free ownership, and four free stay days per month reserved for the owner.",
                 },
-                {id: "1", question: "What amenities are provided within the community?",
+                {id: "1", question: "What amenities are provided within the community",
                  answer: " The community features 24/7 security, a kids' play area, a park, concrete roads, and electricity (EB) availability. It is a DTCP-approved, gated community ensuring safety and security.",
                 },
-                {id: "1", question: "What makes the location of these plots desirable?",
+                {id: "1", question: "What makes the location of these plots desirable",
                  answer: "The plots are desirably located with easy access to Vathalagundu, Kodaikanal, Palani, and the Moolaiyar River, offering serene surroundings and proximity to essential services and tourist attractions.",
                 }
             ],
@@ -180,7 +180,7 @@ let projects =  [
         },
         {
             projectName: "Courtallam",
-            subTitle: "34 lakhs onwatrds",
+            subTitle: "34 lakhs onwards",
             box: [
                 {id: {numberInt: "1"}, head: "Type", content: "Polt/Cottage",},
                 {id: {numberInt: "2"}, head: "Location", content: "Courtallam(Panpoli)",},
@@ -225,19 +225,19 @@ let projects =  [
             sitemap : require('./img/courtlam-sitemap.jpg'),
 
             faq: [
-                {id: "1", question: "What is included in the Income Property for Sale in Coutrallam?",
+                {id: "1", question: "What is included in the Income Property for Sale in Coutrallam",
                  answer: "The property includes a cottage villa priced at 34 lakhs, with a garden featuring 52 varieties of trees and an herbal farm. The investment guarantees a monthly rental income of ₹34,000 or more for 12 years.",
                 },
-                {id: "1", question: "What is the guaranteed rental income for this property?",
+                {id: "1", question: "What is the guaranteed rental income for this property",
                 answer: "The property guarantees a monthly rental income of ₹34,000 or above for the next 12 years.",
                },
-               {id: "1", question: "What is the price of the property?",
+               {id: "1", question: "What is the price of the property",
                answer: "The price of the Income Property for Sale in Coutrallam is 34 lakhs.",
               },
-              {id: "1", question: "What features enhance the value of this property?",
+              {id: "1", question: "What features enhance the value of this property",
               answer: "The property's value is enhanced by its lush garden with 52 varieties of trees, an herbal farm, and its location in Coutrallam, known for its serene environment and natural beauty.",
              },
-             {id: "1", question: "How long is the rental income guaranteed?",
+             {id: "1", question: "How long is the rental income guaranteed",
              answer: "The rental income is guaranteed for 12 years, providing a consistent and attractive return on investment.",
             }
             ],
@@ -283,19 +283,19 @@ let projects =  [
             projectPlanSlider:[require('./img/resturant.jpg'),require('./img/resturant.jpg'),],//dummy_value
             sitemap : require('./img/sitemap.jpg'),
             faq: [
-                {id: "1", question: "What is the offer for the plots in Ulundurpettai?",
+                {id: "1", question: "What is the offer for the plots in Ulundurpettai",
                  answer: "The offer is Buy 1 Get 1 Free, where you purchase one 1200 sqft plot for 4 lakhs and receive an additional 1200 sqft plot for free.",
                 },
-                {id: "1", question: "What is the total area of the plots available?",
+                {id: "1", question: "What is the total area of the plots available",
                 answer: "The offer includes two plots, each 1200 sqft, totaling 2400 sqft.",
                },
-               {id: "1", question: " What are the key location details for the plots?",
+               {id: "1", question: " What are the key location details for the plots",
                answer: "The plots are situated 1.5 km from the Chennai to Trichy Highway, 2 km from Nallur, and 1.5 km from the Kadalur to Oshur Highway.",
               },
-              {id: "1", question: "Is there access to utilities on the property?",
+              {id: "1", question: "Is there access to utilities on the property",
               answer: "Yes, the plots have access to an EB line, providing electricity to the property.",
              },
-             {id: "1", question: "What is the price for the plots?",
+             {id: "1", question: "What is the price for the plots",
              answer: "The price for the two plots is 4 lakhs, following the Buy 1 Get 1 Free offer.",
             }
             ],

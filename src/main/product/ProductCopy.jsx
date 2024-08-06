@@ -83,6 +83,7 @@ return (
 
           <div className="location-cards">
               {/* Features */}
+            <Headline span={'Project'} div={'Feature'} id={`Location`}/> {/* features*/}
               {projectData.nearByAttraction.map(e => {
                 return <LocationAdvantage title={e?.title} data={e?.points.map(e=>e.point)}/>
               })}
