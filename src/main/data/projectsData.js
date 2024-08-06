@@ -23,7 +23,7 @@
 let projects =  [
     {
             projectName: "ECR (Pudupattinam)",
-            subTitle: "22 lakhs onwatrds",
+            subTitle: "22 lakhs onwards",
             box: [
                 {id: {numberInt: "1"}, head: "Type", content: "Plot/Cottage",},
                 {id: {numberInt: "2"}, head: "Location", content: "ECR(Pudupattinam)",},
@@ -106,7 +106,7 @@ let projects =  [
         },
         {
             projectName: "Kodaikanal",
-            subTitle: "36 lakhs onwatrds",
+            subTitle: "36 lakhs onwards",
             box: [
                 {id: {numberInt: "1"}, head: "Type", content: "Plot/Cottage",},
                 {id: {numberInt: "2"}, head: "Location", content: "Pannaikadu",},
@@ -180,7 +180,7 @@ let projects =  [
         },
         {
             projectName: "Courtallam",
-            subTitle: "34 lakhs onwatrds",
+            subTitle: "34 lakhs onwards",
             box: [
                 {id: {numberInt: "1"}, head: "Type", content: "Polt/Cottage",},
                 {id: {numberInt: "2"}, head: "Location", content: "Courtallam(Panpoli)",},
