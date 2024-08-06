@@ -359,7 +359,7 @@
   align-items: center;
 }
 
-.card-full {
+/* .card-full {
   width: 500px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -381,7 +381,7 @@
 
 .card-content {
   padding: 15px;
-  /* text-align: center; */
+  
 }
 
 .card-title {
@@ -389,7 +389,7 @@
   margin-bottom: 10px;
   color: #333;
   font-weight: 600;
-}
+} */
 
 .card-description {
   list-style-type: disc;
