@@ -96,7 +96,7 @@ const Registration = () => {
 
       <div className="minifooter">
         <p className="copy">
-          Copyright © 2023 VGN Projects Estates Pvt Ltd, All Rights Reserved
+          Copyright © 2024 LIP Projects Estates Pvt Ltd, All Rights Reserved
         </p>
       </div>
     </>
