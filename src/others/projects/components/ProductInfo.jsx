@@ -8,7 +8,7 @@ function  ProductInfo({projectName,subtitle,boxArray,click}) {
     <img src={`${api.get}/lip.jpg`} alt="" />
     <h2>{projectName ||`projectName`} <br />
     {subtitle ||`subtitle`}</h2>
-<h4>Best Palce To Buy</h4>
+<h4>Best Place To Buy</h4>
 <div className="info">
    {boxArray.map(e=>{return(
      <div className="points" key={e.id}>

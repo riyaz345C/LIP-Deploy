@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './infra.css'; 
 import about from './scheme.jpg'; 
 import { FaAngleDoubleRight, FaAngleRight } from "react-icons/fa";
@@ -8,11 +8,24 @@ import kodaikanal from './kodaikanal.jpeg';
 import ecr from './ecrr.jpg';
 
 
+
 // const navItems = ['Kodaikanal', 'Ecr'];
 
 const Infra = () => {
-
-    
+    const handleHashChange = (e) => {
+        const hash = window.location.href.split('/').pop().split('#').pop()
+        console.log(hash,'lop');
+        if (hash) {
+          const element = document.querySelector('#'+hash);
+          console.log(element);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' ,block: 'center'});
+          }
+        }
+      };
+    useEffect(()=>{
+        handleHashChange()
+    },[])
     // const handleHashChange = (hash) => {
     //     console.log(hash, 'lop'); 
     //     if (hash) {
@@ -80,7 +93,7 @@ const Infra = () => {
 
 
             {/************************** Kodaikanal Projects Section ************/}
-            <div className="road-project ecr-emi ">
+ <div className="road-project ecr-emi " id="kodaikanal">
     <h2 className="infra-title form">
         <span>Kodaikanal </span> Projects
     </h2>
@@ -92,12 +105,12 @@ const Infra = () => {
 
     <img src={kodaikanal} alt="kodaikanal" className="img-card" />
     <div class="card-row">
-        <div class="card-column">
+        <div class="card-column" >
             <h2 className="card-title-1">Features</h2>
             <ul class="location-list">
         <li>   50% Cash & 50% Emi Plots for Sale" @Kodaikanal - Pannaikadu</li>
         {/* <li> Price @: Rs.999/- Per Sqft</li> */}
-        <li>Area @: Start from 1500sqft</li>
+        <li>Area : @Start from 1500sqft</li>
         <li>Offer : Pay 50% Cash Get Registration After Pay 50% Interest Free EMI
         </li>
         <li>EMI Duration : 24 month
@@ -110,12 +123,12 @@ const Infra = () => {
             <h2 className="card-title-1">Amenities</h2>
             <ul class="location-list">
         <li>
-        DTCP & REARA Approved</li>
+        DTCP & RERA Approved</li>
         <li>Gated Community with Security </li>
         <li>Black Top Road</li>
         <li>Concrete Road </li>
         <li> EB available</li>
-        <li>Kidz Play Area</li>
+        <li>Kids Play Area</li>
         <li>Park available</li>
     </ul>
         </div>
@@ -137,7 +150,7 @@ const Infra = () => {
 
 
 
-<div className="road-project ecr-emi ">
+<div className="road-project ecr-emi " id="ecr">
     <h2 className="infra-title form">
         <span>ECR </span> Projects
     </h2>
@@ -149,12 +162,12 @@ const Infra = () => {
 
     <img src={ecr} alt="ecr" className="img-card" />
     <div class="card-row">
-        <div class="card-column">
+        <div class="card-column" >
             <h2 className="card-title-1">Features</h2>
             <ul class="location-list">
         <li>   50% Cash & 50% Emi Plots for Sale" @ECR - Pudhupattinam</li>
-        <li> Price @: Rs.999/- Per Sqft</li>
-        <li>Area @: Start from 1200sqft</li>
+        <li> Price : Rs.999/- Per Sqft</li>
+        <li>Area : @Start from 1200sqft</li>
         <li>Offer : Pay 50% Cash Get Registration After Pay 50% Interest Free EMI
         </li>
         <li>EMI Duration : 24 month
@@ -167,13 +180,13 @@ const Infra = () => {
             <h2 className="card-title-1">Amenities</h2>
             <ul class="location-list">
         <li>
-        DTCP & REARA Approved</li>
+        DTCP & RERA Approved</li>
         <li>Gated Community with Arch </li>
         <li>Black Top Road</li>
         <li>Trees Avenue </li>
         <li>Swimming Pool</li>
         <li>Garden</li>
-        <li>Kidz Play Area</li>
+        <li>Kids Play Area</li>
     </ul>
         </div>
        <div class="card-column">

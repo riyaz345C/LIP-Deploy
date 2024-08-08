@@ -19,6 +19,9 @@
 // sqft	9600				
 // furnished	furnished				
 // features	Teak wood, Coconut, Mango Trees, Gova Trees, Chapotta Trees, Amla Trees.				
+
+import { ammenities } from './offers'
+
 // nearby	HIRUMALAI KUMARASAMY KOVIL				
 let projects =  [
     {
@@ -41,6 +44,7 @@ let projects =  [
             Affordable pricing, lucrative returns, and comprehensive facilities make this project a standout investment in Chennai's real estate market.`,
             location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.373369871729!2d79.5753025!3d10.4712041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a53616f4c9ea6dd%3A0xc50f0832755a9625!2sEast%20Coast%20Rd!5e0!3m2!1sen!2sin!4v1721471055183!5m2!1sen!2sin",
 
+            amenitiesPoints:ammenities,
             nearByAttraction: [{
                 title: "Mahabalipuram (Mamallapuram)",
                 points: [
@@ -115,9 +119,10 @@ let projects =  [
                 // {id: {numberInt: "5"}, head: "Marah Doyle", content: "Noelani Roberts", _id: {oid: "66473f5a63fd348af9a91a63"}},
                 // {id: {numberInt: "6"}, head: "Tanisha Cain", content: "Alika Daugherty", _id: {oid: "66473f5a63fd348af9a91a64"}}
             ],
-            projectOverview: "The Kodaikanal to Pannaikadu DTCP EMI Plots project offers prime 1500 sqft plots for sale at 36 lakhs. Located on the Vathalagundu to Kodaikanal road, this gated community features 24/7 security, kids' play area, and park, with easy access to Moolaiyar River, Kodaikanal, Palani, and Vathalagundu. Buyers benefit from a one-time investment with a 10-year monthly rental return of 1%, maintenance-free ownership, and four free stay days per month. The property is DTCP approved, ensuring safety and security, with concrete roads and electricity available. Pay 50% upfront to register and the balance with interest-free EMI.",
+            projectOverview: "Kodaikanal, often called the Princess of Hill Stations, is a charming hill town in Tamil Nadu, India, celebrated for its stunning natural beauty and serene atmosphere. Nestled amidst the lush Western Ghats, it offers cool climates, misty hills, scenic lakes, and vibrant flora, including the famous Kurinji flower, which blooms once every 12 years.The Kodaikanal to Pannaikadu DTCP EMI Plots project offers prime 1500 sqft plots for sale at ₹36 lakhs. Located on the Vathalagundu to Kodaikanal road, this gated community features 24/7 security, a kids' play area, and a park, with easy access to Moolaiyar River, Kodaikanal, Palani, and Vathalagundu. Buyers benefit from a one-time investment with a 10-year monthly rental return of 1%, maintenance-free ownership, and four free stay days per month. The property is DTCP approved, ensuring safety and security, with concrete roads and electricity available. Pay 50% upfront to register and the balance with interest-free EMI.",
             location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125631.75064004274!2d77.52610365629593!3d10.262210842565889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b075c3cdfe1c0bb%3A0x176e79923f7a8f21!2sPannaikadu%2C%20Tamil%20Nadu%20624210!5e0!3m2!1sen!2sin!4v1721471118270!5m2!1sen!2sin",
 
+            amenitiesPoints:ammenities,
             nearByAttraction: [
                 {
                 title: "Kodaikanal",
@@ -182,7 +187,7 @@ let projects =  [
             projectName: "Courtallam",
             subTitle: "34 lakhs onwards",
             box: [
-                {id: {numberInt: "1"}, head: "Type", content: "Polt/Cottage",},
+                {id: {numberInt: "1"}, head: "Type", content: "Plot/Cottage",},
                 {id: {numberInt: "2"}, head: "Location", content: "Courtallam(Panpoli)",},
                 {id: {numberInt: "3"}, head: "Sqft", content: "9600",},
                 {id: {numberInt: "4"}, head: "Furnished", content: "furnished",},
@@ -190,7 +195,9 @@ let projects =  [
                 // {id: {numberInt: "6"}, head: "Tanisha Cain", content: "Alika Daugherty", _id: {oid: "66473f5a63fd348af9a91a64"}}
             ],
             projectOverview: "Courtallam, often called the Spa of South India, is renowned for its breathtaking waterfalls and lush greenery. Nestled in the Western Ghats of Tamil Nadu, it offers a serene escape with its medicinal springs and picturesque landscapes.The Income Property for Sale in Coutrallam offers a highly profitable investment opportunity with a 34 lakh price tag for a cottage villa. This property guarantees a monthly rental income of ₹34,000 or more for the next 12 years, ensuring a steady and attractive return on investment. The villa is nestled in a lush garden featuring 52 varieties of trees and an herbal farm, adding to the property's charm and value. Coutrallam, known for its serene environment and natural beauty, enhances the appeal of this investment. With its combination of reliable rental income and rich natural surroundings, this property stands out as a lucrative investment option.",
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356778.47788598423!2d77.10484780957812!3d8.88965879958944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06811adea8d775%3A0x2c535132cebbf5a!2sPanboli%2C%20Tamil%20Nadu%20627807!5e0!3m2!1sen!2sin!4v1721471177328!5m2!1sen!2sin',
+            
+            amenitiesPoints:ammenities,
+                location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356778.47788598423!2d77.10484780957812!3d8.88965879958944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06811adea8d775%3A0x2c535132cebbf5a!2sPanboli%2C%20Tamil%20Nadu%20627807!5e0!3m2!1sen!2sin!4v1721471177328!5m2!1sen!2sin',
             nearByAttraction: [{
                 title: "Near By Attraction",
                 points: [
@@ -258,6 +265,7 @@ let projects =  [
             Conveniently located just 1  km from the Chennai to Trichy Highway and 2 km from Nallur, with additional access to the Kadalur to Oshur Highway, the plots are well-connected for ease of travel. An EB line is available, enhancing the property's utility. This offer provides exceptional value, combining strategic location with the benefit of acquiring two plots for the price of one.`,
             location: "Damian Dalton",
 
+            amenitiesPoints:ammenities,
             nearByAttraction: [{
                 title: "Features",
                 points: [

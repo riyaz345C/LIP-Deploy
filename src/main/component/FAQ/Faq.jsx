@@ -1,7 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './faq.css'
+import { useParams } from 'react-router-dom'
 function Faq({question,answer}) {
     const[view,setView] =useState(false)
+    const p = useParams()
+    useEffect(()=>{
+        setView(false)
+    },[p])
     const handleClick = ()=>{
         setView(prv => !prv)
     }

@@ -98,7 +98,7 @@ return(
       </div> */}
    </div>
    <h2 className="infra-title">
-      <span> VGN  </span> Leadership 
+      <span> LIP  </span> Leadership 
    </h2>
    <div className="leadership">
       <div className="item12">  
