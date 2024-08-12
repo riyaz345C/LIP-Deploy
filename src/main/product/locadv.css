@@ -30,3 +30,7 @@
     color: var(--text-red);
     text-align: center;
 }
+
+.border-less{
+    border:  none;
+}
