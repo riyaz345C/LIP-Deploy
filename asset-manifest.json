@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea24c3a4.css",
-    "main.js": "/static/js/main.41c3721f.js",
+    "main.css": "/static/css/main.bd600121.css",
+    "main.js": "/static/js/main.b91bd2f5.js",
     "static/js/453.b4b5a85a.chunk.js": "/static/js/453.b4b5a85a.chunk.js",
     "static/media/resturant.jpg": "/static/media/resturant.8f6559a77ca1314ef904.jpg",
     "static/media/swimming-poo.jpg": "/static/media/swimming-poo.27f9818436e6ddee3731.jpg",
@@ -26,6 +26,7 @@
     "static/media/ecr2.jpeg": "/static/media/ecr2.c17259149674d17631ac.jpeg",
     "static/media/kodaikanal1.jpeg": "/static/media/kodaikanal1.a1393128f70a7c9d581f.jpeg",
     "static/media/kodaikanal6.jpeg": "/static/media/kodaikanal6.83d4714260aec305a402.jpeg",
+    "static/media/buy-2-ecr-offer.jpeg": "/static/media/buy-2-ecr-offer.753c4cbe6f3fefe2f7b4.jpeg",
     "static/media/kodaikanal4.jpeg": "/static/media/kodaikanal4.4738cf2035cd15e43305.jpeg",
     "static/media/year-111.jpg": "/static/media/year-111.964e8a1a1b7b34068fa8.jpg",
     "static/media/kodaikanal.jpg": "/static/media/kodaikanal.2a758932bfe5360e70a8.jpg",
@@ -71,12 +72,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.ea24c3a4.css.map": "/static/css/main.ea24c3a4.css.map",
-    "main.41c3721f.js.map": "/static/js/main.41c3721f.js.map",
+    "main.bd600121.css.map": "/static/css/main.bd600121.css.map",
+    "main.b91bd2f5.js.map": "/static/js/main.b91bd2f5.js.map",
     "453.b4b5a85a.chunk.js.map": "/static/js/453.b4b5a85a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea24c3a4.css",
-    "static/js/main.41c3721f.js"
+    "static/css/main.bd600121.css",
+    "static/js/main.b91bd2f5.js"
   ]
 }
