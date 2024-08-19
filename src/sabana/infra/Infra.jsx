@@ -6,6 +6,8 @@ import { FaAngleDoubleRight, FaAngleRight } from "react-icons/fa";
 import SliderOwn from "../../main/component/SliderOwn";
 import kodaikanal from './kodaikanal.jpeg';
 import ecr from './ecrr.jpg';
+import ecr2 from './buy-2-ecr-offer.jpeg';
+
 
 
 
@@ -204,6 +206,59 @@ const Infra = () => {
 </div>
 </div>
 
+<div className="road-project ecr-emi " id="ecr">
+    <h2 className="infra-title form">
+        <span>ECR </span> Buy 2 Get one offer
+    </h2>
+    <p className="about-whovr">
+    Exclusive offer! Buy 2 plots and get 1 free at ECR Puthu Pattinam. Each plot is 1200 sqft, priced at just Rs. 999/sqft.
+    </p>
+    <br />
+    <div class="card-container-new">
+
+    <img src={ecr2} alt="ecr" className="img-card" />
+    <div class="card-row">
+        <div class="card-column" >
+            <h2 className="card-title-1">Features</h2>
+            <ul class="location-list">
+        <li>50% Cash & 50% Emi Plots for Sale" @ECR - Pudhupattinam</li>
+        <li> Price : Rs.999/- Per Sqft</li>
+        <li>Area : @Start from 1200sqft</li>
+        <li>Offer : Pay 50% Cash Get Registration After Pay 50% Interest Free EMI
+        </li>
+        <li>EMI Duration : 24 month
+        </li>
+        <li>Interest : 0%
+        </li>
+    </ul>
+        </div>
+        <div class="card-column">
+            <h2 className="card-title-1">Amenities</h2>
+            <ul class="location-list">
+        <li>
+        DTCP & RERA Approved</li>
+        <li>Gated Community with Arch </li>
+        <li>Black Top Road</li>
+        <li>Trees Avenue </li>
+        <li>Swimming Pool</li>
+        <li>Garden</li>
+        <li>Kids Play Area</li>
+    </ul>
+        </div>
+       <div class="card-column">
+    <h2 className="card-title-1">Location</h2>
+    <ul class="location-list">
+        <li>Very Close to New ECR-4 Way Track @ Just 200mtrs</li>
+        <li>Mahabalipuram 15km</li>
+        <li>Kovalam 30km</li>
+        <li>Kelambakkam 35km</li>
+        <li>Thiruvanmiyur 50km</li>
+        <li>Adyar 60km</li>
+    </ul>
+</div>
+    </div>
+</div>
+</div>
 
         
 
